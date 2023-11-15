@@ -24,6 +24,6 @@ func main() {
 	fmt.Printf("type:%T\n", b)
 
 	var c map[int]int
-	c[100] = 200
+	c[100] = 200 //c这个map没有初始化不能直接操作
 	fmt.Println(c)
 }

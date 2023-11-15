@@ -11,7 +11,7 @@ func main() {
 	fmt.Println(b)
 	fmt.Println(c)*/
 	a := [5]int{55, 56, 57, 58, 59}
-	b := a[1:4]
+	b := a[1:2]
 
 	fmt.Println(b)
 	fmt.Printf("%T\n", b)
