@@ -26,4 +26,15 @@ func main() {
 	var c map[int]int
 	c[100] = 200 //c这个map没有初始化不能直接操作
 	fmt.Println(c)
+	var scoremap = make(map[string]int, 8)
+	scoremap["沙河娜扎"] = 100
+	scoremap["沙河小王子"] = 200
+
+	//判断key是否存在
+	value, ok := scoremap["张二狗子"]
+	if ok {
+		fmt.Println("张二狗子在scoremap中", value)
+	} else {
+		fmt.Println("查无此人")
+	}
 }

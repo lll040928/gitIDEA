@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"sort"
 )
 
 func main() {
@@ -14,6 +13,5 @@ func main() {
 	//fmt.Println(a)
 	//冒泡排序
 	var a = [...]int{3, 7, 9, 1}
-	sort.Ints(a[:])
 	fmt.Println(a)
 }
